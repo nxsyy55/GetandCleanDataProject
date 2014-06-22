@@ -39,3 +39,5 @@ for (i in 1:30){
   result <- rbind(result, tem)
 }
 names(result)[1] <- 'Activity'
+
+write.table(result,'result.txt')
